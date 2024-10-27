@@ -1,6 +1,6 @@
 import DB from "./db";
 import { writeGenerated } from "./readmeTools";
-import type { Project, Branch } from "./types";
+import type { Project, Branch, Person } from "./types";
 
 const sortedProjects = Object.values(DB.projects).toSorted(
   (p1, p2) => (p2.home?.pushedAt || 0) - (p1.home?.pushedAt || 0)
@@ -12,7 +12,7 @@ function generateProjectText(p: Project) {
   txt += `**${title}**`;
   txt += `<sub><sup> [${p.owner}/${p.repo}](${ghUrl(
     p.owner + "/" + p.repo
-  )}) </sub></sup>`;
+  )}) </sub></sup>\n`;
   if (p.home?.description) txt += `\n${p.home?.description}`;
 
   // if (title) txt += ` **${title}**`;
@@ -47,9 +47,27 @@ function generateProjectText(p: Project) {
   return txt;
 }
 
-const text = sortedProjects.map(generateProjectText).join("\n\n");
+const projects = sortedProjects.map(generateProjectText).join("\n\n");
 
-writeGenerated("GENERATE_HAPPS", text);
+writeGenerated("GENERATE_HAPPS", projects);
+
+const peopleText = (Object.values(DB.people).filter((a) => a) as Person[])
+  .toSorted((p1, p2) => p2.allContributions - p1.allContributions)
+  .filter((p) => p.allContributions > 1)
+  .map((p) => {
+    return `[<span title="${
+      p.name
+    }" style="position: relative; display: inline-block; margin-right: 16px;"><img style="width: 32px; height: 32px; border-radius: 50%;" src="${
+      p.avatarUrl
+    }&size=32" alt="${
+      p.name
+    }"/><span style="position: absolute; bottom: 0; left: 50%; transform: translateX(-50%); font-size: 6px; background: black; border-radius: 4px; color: white; white-space: nowrap; padding: 0 3px;">${
+      p.login
+    }</span></span>](${ghUrl(p.login)})`;
+  })
+  .join("");
+
+writeGenerated("PEOPLE", peopleText);
 
 function capitalize(s: string) {
   return s.charAt(0).toUpperCase() + s.slice(1);
