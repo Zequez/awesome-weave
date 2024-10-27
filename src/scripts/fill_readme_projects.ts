@@ -1,6 +1,7 @@
-import DB from "./db";
-import { writeGenerated } from "./readmeTools";
-import type { Project, Branch, Person } from "./types";
+import DB from "../db";
+import { writeGenerated } from "../readmeTools";
+import type { Project, Branch, Person } from "../types";
+import { capitalize, ghUrl } from "../utils";
 
 const sortedProjects = Object.values(DB.happs).toSorted(
   (p1, p2) => (p2.home?.pushedAt || 0) - (p1.home?.pushedAt || 0)
@@ -47,7 +48,7 @@ function generateProjectText(p: Project) {
   return txt;
 }
 
-function generateProjectText2(p: Project) {
+function generateProjectTableRow(p: Project) {
   let txt = "";
   const title = p.readme?.title || capitalize(p.repo);
   txt += `| **${title}**`;
@@ -90,37 +91,31 @@ function generateProjectText2(p: Project) {
 const projectsHeader = `\n| Happ | Summary | Last updated | Last branch | Contributors |
 | --- | --- | --- | --- | --- |\n`;
 const projects =
-  projectsHeader + sortedProjects.map(generateProjectText2).join("\n");
+  projectsHeader + sortedProjects.map(generateProjectTableRow).join("\n");
 const frames = Object.values(DB.frames).map(generateProjectText).join("\n\n");
 
 writeGenerated("GENERATE_HAPPS", projects);
 writeGenerated("GENERATE_FRAMES", frames);
 
-const peopleText = (Object.values(DB.people).filter((a) => a) as Person[])
-  .toSorted((p1, p2) => p2.allContributions - p1.allContributions)
-  .filter((p) => p.allContributions > 1)
-  .map((p) => {
-    return `[<span title="${
-      p.name
-    }" style="position: relative; display: inline-block; margin-right: 16px;"><img style="width: 32px; height: 32px; border-radius: 50%;" src="${
-      p.avatarUrl
-    }&size=32" alt="${
-      p.name
-    }"/><span style="position: absolute; bottom: 0; left: 50%; transform: translateX(-50%); font-size: 6px; background: black; border-radius: 4px; color: white; white-space: nowrap; padding: 0 3px;">${
-      p.login
-    }</span></span>](${ghUrl(p.login)})`;
-  })
-  .join("");
+// const people = (Object.values(DB.people).filter((a) => a) as Person[])
+//   .toSorted((p1, p2) => p2.allContributions - p1.allContributions)
+//   .filter((p) => p.allContributions > 1);
 
-writeGenerated("PEOPLE", peopleText);
+// const peopleText = people
+//   .map((p) => {
+//     return `[<span title="${
+//       p.name
+//     }" style="position: relative; display: inline-block; margin-right: 16px;"><img style="width: 32px; height: 32px; border-radius: 50%;" src="${
+//       p.avatarUrl
+//     }&size=32" alt="${
+//       p.name
+//     }"/><span style="position: absolute; bottom: 0; left: 50%; transform: translateX(-50%); font-size: 6px; background: black; border-radius: 4px; color: white; white-space: nowrap; padding: 0 3px;">${
+//       p.login
+//     }</span></span>](${ghUrl(p.login)})`;
+//   })
+//   .join("");
 
-function capitalize(s: string) {
-  return s.charAt(0).toUpperCase() + s.slice(1);
-}
-
-function ghUrl(path: string) {
-  return `https://github.com/${path.replace(/^\//, "")}`;
-}
+// writeGenerated("PEOPLE");
 
 function getLatestBranch(branches: Branch[]): Branch {
   return branches.toSorted((b1, b2) => b2.authoredDate - b1.authoredDate)[0];

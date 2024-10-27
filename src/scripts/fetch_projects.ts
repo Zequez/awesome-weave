@@ -1,13 +1,13 @@
-import { parseReadmeSection } from "./readmeTools";
-import DB from "./db";
+import { parseReadmeSection } from "../readmeTools";
+import DB from "../db";
 import {
   getBranches,
   getContributors,
   getHome,
   getPerson,
   getReadme,
-} from "./fetchers";
-import type { Project } from "./types";
+} from "../fetchers";
+import type { Project } from "../types";
 
 const FORCE_FETCH_BRANCHES = false;
 const FORCE_FETCH_HOME = false;

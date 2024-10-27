@@ -3,7 +3,10 @@
   "module": "index.ts",
   "type": "module",
   "scripts": {
-    "generate": "bun ./src/fetch_projects.ts && bun ./src/fill_readme_projects.ts"
+    "generate": "bun run generate:base && bun run generate:writereadme && bun run generate:people",
+    "generate:base": "bun ./src/scripts/fetch_projects.ts",
+    "generate:writereadme": "bun ./src/scripts/fill_readme_projects.ts",
+    "generate:people": "bun ./src/scripts/generate_people_svg.ts"
   },
   "devDependencies": {
     "@types/bun": "latest"

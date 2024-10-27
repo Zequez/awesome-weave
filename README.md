@@ -1,14 +1,26 @@
 # Awesome Weave
 > 🍀 A curated list of awesome Weave resources
 
+## Contents
+
+- [Useful links](#useful-links)
+- [Weave frames](#weave-frames)
+- [Happs](#happs)
+- [Libraries](#libraries)
+- [Boilerplates](#boilerplates)
+- [Tutorials](#tutorials)
+- [Contributors](#contributors)
+- [Teams using Weave](#teams-using-weave)
+
 [Weave](https://theweave.social/) is an open standard for creating and managing peer-to-peer social contexts by groups that runs on [Holochain](https://www.holochain.org/).
 
 {Video overview of weave}
 
 ### Useful links
 
-- [Developer Documentation](https://dev.theweave.social/)
-- Holochain Discord Channel
+- [Weave Developer Documentation](https://dev.theweave.social/)
+- [Holochain Discord Channel](https://discord.gg/rzCNWq5Y)
+-
 
 ## Weave Frames
 
@@ -19,7 +31,7 @@ In the same way the _Web_ is an open standard and there are _Web Browsers_ that 
 -->
 **Moss**<sub><sup> [lightningrodlabs/moss](https://github.com/lightningrodlabs/moss) </sub></sup>
 
-Creating group coherence with holochain apps 
+Creating group coherence with holochain apps
 - 🕑 <relative-time datetime="2024-10-25T17:26:47.000Z">Oct 25, 2024</relative-time> on [release-docs](https://github.com/lightningrodlabs/moss/tree/release-docs) by [@matthme](https://github.com/matthme)
 - 👥 [@matthme](https://github.com/matthme), [@zippy](https://github.com/zippy), [@LeosPrograms](https://github.com/LeosPrograms), [@brodeur](https://github.com/brodeur)
 <!-- /GENERATE_FRAMES -->
@@ -98,12 +110,15 @@ At the moment Weave and Moss are being co-evolved together as it is discovered w
 
 ## Tutorials
 
-## People
+## Contributors
 
-<!-- PEOPLE -->
-[<span title="damien" style="position: relative; display: inline-block; margin-right: 16px;"><img style="width: 32px; height: 32px; border-radius: 50%;" src="https://avatars.githubusercontent.com/u/34140573?v=4&size=32" alt="damien"/><span style="position: absolute; bottom: 0; left: 50%; transform: translateX(-50%); font-size: 6px; background: black; border-radius: 4px; color: white; white-space: nowrap; padding: 0 3px;">ddd-mtl</span></span>](https://github.com/ddd-mtl)[<span title="null" style="position: relative; display: inline-block; margin-right: 16px;"><img style="width: 32px; height: 32px; border-radius: 50%;" src="https://avatars.githubusercontent.com/u/36768177?v=4&size=32" alt="null"/><span style="position: absolute; bottom: 0; left: 50%; transform: translateX(-50%); font-size: 6px; background: black; border-radius: 4px; color: white; white-space: nowrap; padding: 0 3px;">matthme</span></span>](https://github.com/matthme)[<span title="Eric Harris-Braun" style="position: relative; display: inline-block; margin-right: 16px;"><img style="width: 32px; height: 32px; border-radius: 50%;" src="https://avatars.githubusercontent.com/u/3563?v=4&size=32" alt="Eric Harris-Braun"/><span style="position: absolute; bottom: 0; left: 50%; transform: translateX(-50%); font-size: 6px; background: black; border-radius: 4px; color: white; white-space: nowrap; padding: 0 3px;">zippy</span></span>](https://github.com/zippy)[<span title="Connor Turland" style="position: relative; display: inline-block; margin-right: 16px;"><img style="width: 32px; height: 32px; border-radius: 50%;" src="https://avatars.githubusercontent.com/u/1409121?v=4&size=32" alt="Connor Turland"/><span style="position: absolute; bottom: 0; left: 50%; transform: translateX(-50%); font-size: 6px; background: black; border-radius: 4px; color: white; white-space: nowrap; padding: 0 3px;">Connoropolous</span></span>](https://github.com/Connoropolous)[<span title="Pegah" style="position: relative; display: inline-block; margin-right: 16px;"><img style="width: 32px; height: 32px; border-radius: 50%;" src="https://avatars.githubusercontent.com/u/53795528?v=4&size=32" alt="Pegah"/><span style="position: absolute; bottom: 0; left: 50%; transform: translateX(-50%); font-size: 6px; background: black; border-radius: 4px; color: white; white-space: nowrap; padding: 0 3px;">pegahvaezi</span></span>](https://github.com/pegahvaezi)[<span title="Wesley Finck" style="position: relative; display: inline-block; margin-right: 16px;"><img style="width: 32px; height: 32px; border-radius: 50%;" src="https://avatars.githubusercontent.com/u/39413655?v=4&size=32" alt="Wesley Finck"/><span style="position: absolute; bottom: 0; left: 50%; transform: translateX(-50%); font-size: 6px; background: black; border-radius: 4px; color: white; white-space: nowrap; padding: 0 3px;">weswalla</span></span>](https://github.com/weswalla)[<span title="Karl Bonnici" style="position: relative; display: inline-block; margin-right: 16px;"><img style="width: 32px; height: 32px; border-radius: 50%;" src="https://avatars.githubusercontent.com/u/71105868?v=4&size=32" alt="Karl Bonnici"/><span style="position: absolute; bottom: 0; left: 50%; transform: translateX(-50%); font-size: 6px; background: black; border-radius: 4px; color: white; white-space: nowrap; padding: 0 3px;">kbonnici</span></span>](https://github.com/kbonnici)[<span title="Leo Bensman" style="position: relative; display: inline-block; margin-right: 16px;"><img style="width: 32px; height: 32px; border-radius: 50%;" src="https://avatars.githubusercontent.com/u/18725005?v=4&size=32" alt="Leo Bensman"/><span style="position: absolute; bottom: 0; left: 50%; transform: translateX(-50%); font-size: 6px; background: black; border-radius: 4px; color: white; white-space: nowrap; padding: 0 3px;">LeosPrograms</span></span>](https://github.com/LeosPrograms)[<span title="Ezequiel Schwartzman" style="position: relative; display: inline-block; margin-right: 16px;"><img style="width: 32px; height: 32px; border-radius: 50%;" src="https://avatars.githubusercontent.com/u/126037?v=4&size=32" alt="Ezequiel Schwartzman"/><span style="position: absolute; bottom: 0; left: 50%; transform: translateX(-50%); font-size: 6px; background: black; border-radius: 4px; color: white; white-space: nowrap; padding: 0 3px;">Zequez</span></span>](https://github.com/Zequez)[<span title="Aaron" style="position: relative; display: inline-block; margin-right: 16px;"><img style="width: 32px; height: 32px; border-radius: 50%;" src="https://avatars.githubusercontent.com/u/83412?v=4&size=32" alt="Aaron"/><span style="position: absolute; bottom: 0; left: 50%; transform: translateX(-50%); font-size: 6px; background: black; border-radius: 4px; color: white; white-space: nowrap; padding: 0 3px;">brodeur</span></span>](https://github.com/brodeur)[<span title="Matt Gabrenya" style="position: relative; display: inline-block; margin-right: 16px;"><img style="width: 32px; height: 32px; border-radius: 50%;" src="https://avatars.githubusercontent.com/u/159270?v=4&size=32" alt="Matt Gabrenya"/><span style="position: absolute; bottom: 0; left: 50%; transform: translateX(-50%); font-size: 6px; background: black; border-radius: 4px; color: white; white-space: nowrap; padding: 0 3px;">mattyg</span></span>](https://github.com/mattyg)[<span title="Guillem Córdoba" style="position: relative; display: inline-block; margin-right: 16px;"><img style="width: 32px; height: 32px; border-radius: 50%;" src="https://avatars.githubusercontent.com/u/2046932?v=4&size=32" alt="Guillem Córdoba"/><span style="position: absolute; bottom: 0; left: 50%; transform: translateX(-50%); font-size: 6px; background: black; border-radius: 4px; color: white; white-space: nowrap; padding: 0 3px;">guillemcordoba</span></span>](https://github.com/guillemcordoba)[<span title="Tibet Sprague" style="position: relative; display: inline-block; margin-right: 16px;"><img style="width: 32px; height: 32px; border-radius: 50%;" src="https://avatars.githubusercontent.com/u/3741?v=4&size=32" alt="Tibet Sprague"/><span style="position: absolute; bottom: 0; left: 50%; transform: translateX(-50%); font-size: 6px; background: black; border-radius: 4px; color: white; white-space: nowrap; padding: 0 3px;">tibetsprague</span></span>](https://github.com/tibetsprague)[<span title="Jordan" style="position: relative; display: inline-block; margin-right: 16px;"><img style="width: 32px; height: 32px; border-radius: 50%;" src="https://avatars.githubusercontent.com/u/408953?v=4&size=32" alt="Jordan"/><span style="position: absolute; bottom: 0; left: 50%; transform: translateX(-50%); font-size: 6px; background: black; border-radius: 4px; color: white; white-space: nowrap; padding: 0 3px;">starpause</span></span>](https://github.com/starpause)[<span title="Harlan T Wood" style="position: relative; display: inline-block; margin-right: 16px;"><img style="width: 32px; height: 32px; border-radius: 50%;" src="https://avatars.githubusercontent.com/u/38769?v=4&size=32" alt="Harlan T Wood"/><span style="position: absolute; bottom: 0; left: 50%; transform: translateX(-50%); font-size: 6px; background: black; border-radius: 4px; color: white; white-space: nowrap; padding: 0 3px;">harlantwood</span></span>](https://github.com/harlantwood)[<span title="Jost Schulte" style="position: relative; display: inline-block; margin-right: 16px;"><img style="width: 32px; height: 32px; border-radius: 50%;" src="https://avatars.githubusercontent.com/u/28270981?v=4&size=32" alt="Jost Schulte"/><span style="position: absolute; bottom: 0; left: 50%; transform: translateX(-50%); font-size: 6px; background: black; border-radius: 4px; color: white; white-space: nowrap; padding: 0 3px;">jost-s</span></span>](https://github.com/jost-s)[<span title="Stefan Junker" style="position: relative; display: inline-block; margin-right: 16px;"><img style="width: 32px; height: 32px; border-radius: 50%;" src="https://avatars.githubusercontent.com/u/1181362?v=4&size=32" alt="Stefan Junker"/><span style="position: absolute; bottom: 0; left: 50%; transform: translateX(-50%); font-size: 6px; background: black; border-radius: 4px; color: white; white-space: nowrap; padding: 0 3px;">steveej</span></span>](https://github.com/steveej)
-<!-- /PEOPLE -->
+Extracted from all the contributors of all the repositories linked on this doc.
 
-## Contributing to Awesome Weave
 
-Just open a PR or if you feel confident ask to be added as contributor.
+<p align="center">
+  <img src="./public/people.svg"/>
+</p>
+
+## Teams using Weave
+
+- [Lightningrod Labs](https://lightningrodlabs.org/) - Is building and using Weave as team coordination tool to further develop the Weave and broader Holochain ecosystem
