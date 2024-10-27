@@ -81,16 +81,16 @@ function generateProjectText2(p: Project) {
         return `[@${c.login}](${ghUrl(c.login)})`;
       })
       .join(", ");
-    txt += `| ${links} |`;
+    txt += `${links} |`;
   }
 
   return txt;
 }
 
-const projectsHeader = `| Happ | Summary | Last updated | Last branch | Contributors |
+const projectsHeader = `\n| Happ | Summary | Last updated | Last branch | Contributors |
 | --- | --- | --- | --- |\n`;
 const projects =
-  projectsHeader + sortedProjects.map(generateProjectText2).join("\n\n");
+  projectsHeader + sortedProjects.map(generateProjectText2).join("\n");
 const frames = Object.values(DB.frames).map(generateProjectText).join("\n\n");
 
 writeGenerated("GENERATE_HAPPS", projects);
