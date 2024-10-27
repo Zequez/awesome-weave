@@ -44,5 +44,9 @@ export type Person = {
   login: string;
   name: string;
   avatarUrl: string;
+  avatarB64: {
+    fetchedAt: number;
+    data: string;
+  } | null;
   allContributions: number;
 };

@@ -85,6 +85,7 @@ export async function getPerson(login: string): Promise<Person | null> {
       name: r.name,
       fetchedAt: new Date().getTime(),
       allContributions: 0,
+      avatarB64: null,
     };
   } else {
     return null;

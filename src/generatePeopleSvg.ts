@@ -8,9 +8,9 @@ const avatarSizes = {
 };
 
 const spaceX = 20;
-const spaceY = 20;
+const spaceY = 30;
 const padding = 20;
-const fontSize = 16;
+const fontSize = 12;
 
 const MAX_WIDTH = (avatarSizes.T3 + spaceX) * 4;
 
@@ -23,7 +23,7 @@ type PeopleGrouped = {
 export function generatePeopleSvg(rawPeople: Person[]) {
   const people = (Object.values(rawPeople).filter((a) => a) as Person[])
     .toSorted((p1, p2) => p2.allContributions - p1.allContributions)
-    .filter((p) => p.allContributions > 1);
+    .filter((p) => p.allContributions > 1 && p.avatarB64);
 
   const peopleGrouped: PeopleGrouped = {
     T3: people.filter((p) => p.allContributions >= 1000),
@@ -51,7 +51,14 @@ export function generatePeopleSvg(rawPeople: Person[]) {
     for (let row of rowsPeople) {
       x = 0;
       for (let person of row) {
-        output += renderProfile({ imgSize: size, x, y, person });
+        output += renderProfile({
+          imgSize: size,
+          x,
+          y,
+          person,
+          group: group,
+          noText: false,
+        });
         x += size + spaceX;
       }
       y += size + spaceY;
@@ -67,6 +74,8 @@ type PersonProfileElement = {
   x: number;
   y: number;
   person: Person;
+  group: string;
+  noText: boolean;
 };
 
 function svgHeader(height: number) {
@@ -74,6 +83,19 @@ function svgHeader(height: number) {
   <style>
     .person-name {
       font-size: ${fontSize}px;
+      font-family: sans-serif;
+    }
+
+    .group-T1 {
+      font-size: 6px;
+    }
+
+    .group-T2 {
+      font-size: 9px;
+    }
+
+    .group-T3 {
+      font-size: 16px;
     }
   </style>
   `;
@@ -84,9 +106,14 @@ function renderProfile(el: PersonProfileElement) {
   const imgX = el.x;
   const imgY = el.y;
   const textX = el.x + el.imgSize / 2;
-  const textY = el.y + el.imgSize + 8;
-  return `<a xmlns="http://www.w3.org/2000/svg" href="${personUrl}" target="_blank">
-  <text x="${textX}" y="${textY}" text-anchor="middle" class="person-name" fill="currentColor">${el.person.login}</text>
-  <image x="${imgX}" y="${imgY}" width="${el.imgSize}" height="${el.imgSize}" href="${el.person.avatarUrl}&size=${el.imgSize}"/>
-</a>`;
+  const textY = el.y + el.imgSize + 16;
+  let output = `<a xmlns="http://www.w3.org/2000/svg" href="${personUrl}" target="_blank">`;
+  if (!el.noText) {
+    output += `<text x="${textX}" y="${textY}" text-anchor="middle" class="person-name group-${el.group}" fill="currentColor">${el.person.login}</text>`;
+  }
+  output += `<image x="${imgX}" y="${imgY}" width="${el.imgSize}" height="${
+    el.imgSize
+  }" href="${el.person.avatarB64!.data}"/>`;
+  output += `</a>`;
+  return output;
 }
