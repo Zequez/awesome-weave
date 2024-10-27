@@ -88,7 +88,7 @@ function generateProjectText2(p: Project) {
 }
 
 const projectsHeader = `\n| Happ | Summary | Last updated | Last branch | Contributors |
-| --- | --- | --- | --- |\n`;
+| --- | --- | --- | --- | --- |\n`;
 const projects =
   projectsHeader + sortedProjects.map(generateProjectText2).join("\n");
 const frames = Object.values(DB.frames).map(generateProjectText).join("\n\n");

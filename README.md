@@ -49,7 +49,7 @@ At the moment Weave and Moss are being co-evolved together as it is discovered w
 -->
 
 | Happ | Summary | Last updated | Last branch | Contributors |
-| --- | --- | --- | --- |
+| --- | --- | --- | --- | --- |
 | **Gamez!**<sub><sup> [holochain-apps/gamez](https://github.com/holochain-apps/gamez) </sub></sup> | Board Games, make-em, play-em! |   Oct 26, 2024 | [main](https://github.com/holochain-apps/gamez) | [@Zequez](https://github.com/Zequez), [@zippy](https://github.com/zippy) |
 | **Vines**<sub><sup> [lightningrodlabs/vines](https://github.com/lightningrodlabs/vines) </sub></sup> | tooling for conversation in group spaces |   Oct 25, 2024 | [hdk-4.0-dev.20](https://github.com/lightningrodlabs/vines/tree/hdk-4.0-dev.20) | [@ddd-mtl](https://github.com/ddd-mtl), [@zippy](https://github.com/zippy) |
 | **Presence**<sub><sup> [matthme/presence](https://github.com/matthme/presence) </sub></sup> | Peer-to-Peer Privacy-Preserving Video Calls leveraging Holochain |   Oct 21, 2024 | [main](https://github.com/matthme/presence) | [@matthme](https://github.com/matthme) |
