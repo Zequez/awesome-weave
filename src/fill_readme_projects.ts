@@ -54,7 +54,7 @@ function generateProjectText2(p: Project) {
   txt += `<sub><sup> [${p.owner}/${p.repo}](${ghUrl(
     p.owner + "/" + p.repo
   )}) </sub></sup> |`;
-  txt += ` ${p.home?.description} | `;
+  txt += ` ${p.home?.description || ""} | `;
 
   const updateDate = p.home?.pushedAt ? new Date(p.home.pushedAt) : null;
   const latestBranch = getLatestBranch(p.branches?.list || []);
@@ -69,7 +69,7 @@ function generateProjectText2(p: Project) {
       year: "numeric",
     });
     const branchLink = `[${latestBranch.name}](${ghUrl(latestBranch.path)})`;
-    txt += ` <relative-time datetime="${isoDate}">${dateTxt}</relative-time> | ${branchLink} | `;
+    txt += `  ${dateTxt} | ${branchLink} | `;
   } else {
     txt += "| |";
   }
