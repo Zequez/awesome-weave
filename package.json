@@ -1,0 +1,18 @@
+{
+  "name": "awesome-weave",
+  "module": "index.ts",
+  "type": "module",
+  "scripts": {
+    "generate": "bun ./src/fetch_projects.ts && bun ./src/fill_readme_projects.ts"
+  },
+  "devDependencies": {
+    "@types/bun": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  },
+  "dependencies": {
+    "axios": "^1.7.7",
+    "node-html-parser": "^6.1.13"
+  }
+}
