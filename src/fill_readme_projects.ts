@@ -2,7 +2,7 @@ import DB from "./db";
 import { writeGenerated } from "./readmeTools";
 import type { Project, Branch, Person } from "./types";
 
-const sortedProjects = Object.values(DB.projects).toSorted(
+const sortedProjects = Object.values(DB.happs).toSorted(
   (p1, p2) => (p2.home?.pushedAt || 0) - (p1.home?.pushedAt || 0)
 );
 
@@ -48,8 +48,10 @@ function generateProjectText(p: Project) {
 }
 
 const projects = sortedProjects.map(generateProjectText).join("\n\n");
+const frames = Object.values(DB.frames).map(generateProjectText).join("\n\n");
 
 writeGenerated("GENERATE_HAPPS", projects);
+writeGenerated("GENERATE_FRAMES", frames);
 
 const peopleText = (Object.values(DB.people).filter((a) => a) as Person[])
   .toSorted((p1, p2) => p2.allContributions - p1.allContributions)

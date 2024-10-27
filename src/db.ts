@@ -2,9 +2,7 @@ import * as fs from "node:fs";
 import type { Person, Project } from "./types";
 
 function build() {
-  const projects = JSON.parse(
-    fs.readFileSync("./db/projects.json", "utf-8")
-  ) as {
+  const happs = JSON.parse(fs.readFileSync("./db/happs.json", "utf-8")) as {
     [key: string]: Project;
   };
 
@@ -12,12 +10,17 @@ function build() {
     [key: string]: Person | null;
   };
 
+  const frames = JSON.parse(fs.readFileSync("./db/frames.json", "utf-8")) as {
+    [key: string]: Project;
+  };
+
   function save() {
-    fs.writeFileSync("./db/projects.json", JSON.stringify(projects, null, 2));
+    fs.writeFileSync("./db/happs.json", JSON.stringify(happs, null, 2));
     fs.writeFileSync("./db/people.json", JSON.stringify(people, null, 2));
+    fs.writeFileSync("./db/frames.json", JSON.stringify(frames, null, 2));
   }
 
-  return { projects, people, save };
+  return { happs, people, frames, save };
 }
 
 const DB = build();

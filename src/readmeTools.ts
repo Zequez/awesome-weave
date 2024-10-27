@@ -1,8 +1,6 @@
 import * as fs from "node:fs";
 
-export function parseReadmeProjects(
-  section: string
-): { owner: string; repo: string }[] {
+export function parseReadmeSection(section: string): string[] {
   const readme = fs.readFileSync("./README.md", "utf-8");
 
   const regex = new RegExp(`<!-- ${section}([\\s\\S]*?)-->`, "m");
@@ -15,7 +13,7 @@ export function parseReadmeProjects(
       .map((l) => l.match(/- (.*)/)!)
       .filter((l) => l)
       .map((m) => {
-        return { owner: m[1].split("/")[0], repo: m[1].split("/")[1] };
+        return m[1];
       });
   } else {
     throw `No section ${section}`;
