@@ -48,104 +48,41 @@ At the moment Weave and Moss are being co-evolved together as it is discovered w
 - lightningrodlabs/place
 - lightningrodlabs/tables
 -->
-**Gamez!**<sub><sup> [holochain-apps/gamez](https://github.com/holochain-apps/gamez) </sub></sup>
+| Happ | Summary | Last updated | Last branch | Contributors |
+| --- | --- | --- | --- |
+| **Gamez!**<sub><sup> [holochain-apps/gamez](https://github.com/holochain-apps/gamez) </sub></sup> |Board Games, make-em, play-em! |  <relative-time datetime="2024-10-26T16:58:29.000Z">Oct 26, 2024</relative-time> | [main](https://github.com/holochain-apps/gamez) | | [@Zequez](https://github.com/Zequez), [@zippy](https://github.com/zippy) |
 
-Board Games, make-em, play-em!
-- 🕑 <relative-time datetime="2024-10-26T16:58:29.000Z">Oct 26, 2024</relative-time> on [main](https://github.com/holochain-apps/gamez) by [@Zequez](https://github.com/Zequez)
-- 👥 [@Zequez](https://github.com/Zequez), [@zippy](https://github.com/zippy)
+| **Vines**<sub><sup> [lightningrodlabs/vines](https://github.com/lightningrodlabs/vines) </sub></sup> |tooling for conversation in group spaces |  <relative-time datetime="2024-10-25T16:54:21.000Z">Oct 25, 2024</relative-time> | [hdk-4.0-dev.20](https://github.com/lightningrodlabs/vines/tree/hdk-4.0-dev.20) | | [@ddd-mtl](https://github.com/ddd-mtl), [@zippy](https://github.com/zippy) |
 
-**Vines**<sub><sup> [lightningrodlabs/vines](https://github.com/lightningrodlabs/vines) </sub></sup>
+| **Presence**<sub><sup> [matthme/presence](https://github.com/matthme/presence) </sub></sup> |Peer-to-Peer Privacy-Preserving Video Calls leveraging Holochain |  <relative-time datetime="2024-10-21T15:36:48.000Z">Oct 21, 2024</relative-time> | [main](https://github.com/matthme/presence) | | [@matthme](https://github.com/matthme) |
 
-tooling for conversation in group spaces
-- 🕑 <relative-time datetime="2024-10-25T16:54:21.000Z">Oct 25, 2024</relative-time> on [hdk-4.0-dev.20](https://github.com/lightningrodlabs/vines/tree/hdk-4.0-dev.20) by [@ddd-mtl](https://github.com/ddd-mtl)
-- 👥 [@ddd-mtl](https://github.com/ddd-mtl), [@zippy](https://github.com/zippy)
+| **notebooks**<sub><sup> [lightningrodlabs/notebooks](https://github.com/lightningrodlabs/notebooks) </sub></sup> |null |  <relative-time datetime="2024-10-16T18:21:16.000Z">Oct 16, 2024</relative-time> | [for-hdk-v0.4.0-rc](https://github.com/lightningrodlabs/notebooks/tree/for-hdk-v0.4.0-rc) | | [@guillemcordoba](https://github.com/guillemcordoba), [@zippy](https://github.com/zippy), [@matthme](https://github.com/matthme), [@weswalla](https://github.com/weswalla) |
 
-**Presence**<sub><sup> [matthme/presence](https://github.com/matthme/presence) </sub></sup>
+| **Calcy!**<sub><sup> [lightningrodlabs/calcy](https://github.com/lightningrodlabs/calcy) </sub></sup> |Spreadsheet for Holochain |  <relative-time datetime="2024-10-16T15:43:26.000Z">Oct 16, 2024</relative-time> | [feature/OT](https://github.com/lightningrodlabs/calcy/tree/feature/OT) | | [@zippy](https://github.com/zippy), [@LeosPrograms](https://github.com/LeosPrograms) |
 
-Peer-to-Peer Privacy-Preserving Video Calls leveraging Holochain
-- 🕑 <relative-time datetime="2024-10-21T15:36:48.000Z">Oct 21, 2024</relative-time> on [main](https://github.com/matthme/presence) by [@matthme](https://github.com/matthme)
-- 👥 [@matthme](https://github.com/matthme)
+| **TalkingStickies!**<sub><sup> [holochain-apps/talking-stickies](https://github.com/holochain-apps/talking-stickies) </sub></sup> |Real-time stickies-boards! |  <relative-time datetime="2024-10-15T20:54:50.000Z">Oct 15, 2024</relative-time> | [main](https://github.com/holochain-apps/talking-stickies) | | [@zippy](https://github.com/zippy), [@brodeur](https://github.com/brodeur) |
 
-**notebooks**<sub><sup> [lightningrodlabs/notebooks](https://github.com/lightningrodlabs/notebooks) </sub></sup>
+| **KanDo!**<sub><sup> [holochain-apps/kando](https://github.com/holochain-apps/kando) </sub></sup> |Real-time KanBan Boards |  <relative-time datetime="2024-10-15T20:03:50.000Z">Oct 15, 2024</relative-time> | [main](https://github.com/holochain-apps/kando) | | [@zippy](https://github.com/zippy), [@mattyg](https://github.com/mattyg), [@brodeur](https://github.com/brodeur), [@matthme](https://github.com/matthme), [@guillemcordoba](https://github.com/guillemcordoba) |
 
-- 🕑 <relative-time datetime="2024-10-16T18:21:16.000Z">Oct 16, 2024</relative-time> on [for-hdk-v0.4.0-rc](https://github.com/lightningrodlabs/notebooks/tree/for-hdk-v0.4.0-rc) by [@zippy](https://github.com/zippy)
-- 👥 [@guillemcordoba](https://github.com/guillemcordoba), [@zippy](https://github.com/zippy), [@matthme](https://github.com/matthme), [@weswalla](https://github.com/weswalla)
+| **Acorn**<sub><sup> [lightningrodlabs/acorn](https://github.com/lightningrodlabs/acorn) </sub></sup> |Built with Holochain, Acorn is an open-source, peer-to-peer project management application. It is designed and built as a scrum-alternative, Agile Development Pattern for distributed software development teams.  Acorn is currently in Alpha testing phase. |  <relative-time datetime="2024-09-13T23:23:10.000Z">Sep 13, 2024</relative-time> | [feature/weave-applet-port](https://github.com/lightningrodlabs/acorn/tree/feature/weave-applet-port) | | [@Connoropolous](https://github.com/Connoropolous), [@pegahvaezi](https://github.com/pegahvaezi), [@weswalla](https://github.com/weswalla), [@kbonnici](https://github.com/kbonnici), [@harlantwood](https://github.com/harlantwood) |
 
-**Calcy!**<sub><sup> [lightningrodlabs/calcy](https://github.com/lightningrodlabs/calcy) </sub></sup>
+| **Whos in?**<sub><sup> [lightningrodlabs/whos-in](https://github.com/lightningrodlabs/whos-in) </sub></sup> |Distributed Collective Action Network |  <relative-time datetime="2024-09-12T16:42:31.000Z">Sep 12, 2024</relative-time> | [feature/cross-applet-view](https://github.com/lightningrodlabs/whos-in/tree/feature/cross-applet-view) | | [@LeosPrograms](https://github.com/LeosPrograms) |
 
-Spreadsheet for Holochain
-- 🕑 <relative-time datetime="2024-10-16T15:43:26.000Z">Oct 16, 2024</relative-time> on [feature/OT](https://github.com/lightningrodlabs/calcy/tree/feature/OT) by [@LeosPrograms](https://github.com/LeosPrograms)
-- 👥 [@zippy](https://github.com/zippy), [@LeosPrograms](https://github.com/LeosPrograms)
+| **snapmail**<sub><sup> [glassbeadsoftware/snapmail](https://github.com/glassbeadsoftware/snapmail) </sub></sup> |repo for snapmail electron based releases |  <relative-time datetime="2024-08-28T15:19:11.000Z">Aug 28, 2024</relative-time> | [hdk-4.0-dev.20](https://github.com/glassbeadsoftware/snapmail/tree/hdk-4.0-dev.20) | | [@ddd-mtl](https://github.com/ddd-mtl), [@zippy](https://github.com/zippy) |
 
-**TalkingStickies!**<sub><sup> [holochain-apps/talking-stickies](https://github.com/holochain-apps/talking-stickies) </sub></sup>
+| **ZipZap!**<sub><sup> [lightningrodlabs/zipzap](https://github.com/lightningrodlabs/zipzap) </sub></sup> |ephemeral chat |  <relative-time datetime="2024-08-27T19:24:43.000Z">Aug 27, 2024</relative-time> | [main](https://github.com/lightningrodlabs/zipzap) | | [@zippy](https://github.com/zippy) |
 
-Real-time stickies-boards!
-- 🕑 <relative-time datetime="2024-10-15T20:54:50.000Z">Oct 15, 2024</relative-time> on [main](https://github.com/holochain-apps/talking-stickies) by [@zippy](https://github.com/zippy)
-- 👥 [@zippy](https://github.com/zippy), [@brodeur](https://github.com/brodeur)
+| **Emergence**<sub><sup> [holochain-apps/emergence](https://github.com/holochain-apps/emergence) </sub></sup> |Holochain hApp for distributed event coordination |  <relative-time datetime="2024-08-07T23:04:31.000Z">Aug 7, 2024</relative-time> | [main](https://github.com/holochain-apps/emergence) | | [@zippy](https://github.com/zippy), [@brodeur](https://github.com/brodeur), [@mattyg](https://github.com/mattyg), [@starpause](https://github.com/starpause), [@jost-s](https://github.com/jost-s), [@steveej](https://github.com/steveej), [@unusedaccount](https://github.com/unusedaccount) |
 
-**KanDo!**<sub><sup> [holochain-apps/kando](https://github.com/holochain-apps/kando) </sub></sup>
+| **Converge**<sub><sup> [lightningrodlabs/converge](https://github.com/lightningrodlabs/converge) </sub></sup> |Criteria-driven decision making/deliberation built on Holochain |  <relative-time datetime="2024-08-07T13:34:12.000Z">Aug 7, 2024</relative-time> | [0.3.1](https://github.com/lightningrodlabs/converge/tree/0.3.1) | | [@LeosPrograms](https://github.com/LeosPrograms) |
 
-Real-time KanBan Boards
-- 🕑 <relative-time datetime="2024-10-15T20:03:50.000Z">Oct 15, 2024</relative-time> on [main](https://github.com/holochain-apps/kando) by [@zippy](https://github.com/zippy)
-- 👥 [@zippy](https://github.com/zippy), [@mattyg](https://github.com/mattyg), [@brodeur](https://github.com/brodeur), [@matthme](https://github.com/matthme), [@guillemcordoba](https://github.com/guillemcordoba)
+| **where**<sub><sup> [lightningrodlabs/where](https://github.com/lightningrodlabs/where) </sub></sup> |Tooling for group self-awareness on holochain |  <relative-time datetime="2024-08-06T15:12:39.000Z">Aug 6, 2024</relative-time> | [hdk-3.1](https://github.com/lightningrodlabs/where/tree/hdk-3.1) | | [@ddd-mtl](https://github.com/ddd-mtl), [@zippy](https://github.com/zippy), [@guillemcordoba](https://github.com/guillemcordoba), [@harlantwood](https://github.com/harlantwood), [@bierlingm](https://github.com/bierlingm) |
 
-**Acorn**<sub><sup> [lightningrodlabs/acorn](https://github.com/lightningrodlabs/acorn) </sub></sup>
+| **Tables**<sub><sup> [lightningrodlabs/tables](https://github.com/lightningrodlabs/tables) </sub></sup> |data tables |  <relative-time datetime="2024-07-25T11:02:29.000Z">Jul 25, 2024</relative-time> | [main](https://github.com/lightningrodlabs/tables) | | [@LeosPrograms](https://github.com/LeosPrograms), [@zippy](https://github.com/zippy) |
 
-Built with Holochain, Acorn is an open-source, peer-to-peer project management application. It is designed and built as a scrum-alternative, Agile Development Pattern for distributed software development teams.  Acorn is currently in Alpha testing phase.
-- 🕑 <relative-time datetime="2024-09-13T23:23:10.000Z">Sep 13, 2024</relative-time> on [feature/weave-applet-port](https://github.com/lightningrodlabs/acorn/tree/feature/weave-applet-port) by [@weswalla](https://github.com/weswalla)
-- 👥 [@Connoropolous](https://github.com/Connoropolous), [@pegahvaezi](https://github.com/pegahvaezi), [@weswalla](https://github.com/weswalla), [@kbonnici](https://github.com/kbonnici), [@harlantwood](https://github.com/harlantwood)
+| **Slate!**<sub><sup> [lightningrodlabs/slate](https://github.com/lightningrodlabs/slate) </sub></sup> |null |  <relative-time datetime="2024-06-30T21:59:56.000Z">Jun 30, 2024</relative-time> | [main](https://github.com/lightningrodlabs/slate) | | [@zippy](https://github.com/zippy), [@tibetsprague](https://github.com/tibetsprague) |
 
-**Whos in?**<sub><sup> [lightningrodlabs/whos-in](https://github.com/lightningrodlabs/whos-in) </sub></sup>
-
-Distributed Collective Action Network
-- 🕑 <relative-time datetime="2024-09-12T16:42:31.000Z">Sep 12, 2024</relative-time> on [feature/cross-applet-view](https://github.com/lightningrodlabs/whos-in/tree/feature/cross-applet-view) by [@LeosPrograms](https://github.com/LeosPrograms)
-- 👥 [@LeosPrograms](https://github.com/LeosPrograms)
-
-**snapmail**<sub><sup> [glassbeadsoftware/snapmail](https://github.com/glassbeadsoftware/snapmail) </sub></sup>
-
-repo for snapmail electron based releases
-- 🕑 <relative-time datetime="2024-08-28T15:19:11.000Z">Aug 28, 2024</relative-time> on [hdk-4.0-dev.20](https://github.com/glassbeadsoftware/snapmail/tree/hdk-4.0-dev.20) by [@ddd-mtl](https://github.com/ddd-mtl)
-- 👥 [@ddd-mtl](https://github.com/ddd-mtl), [@zippy](https://github.com/zippy)
-
-**ZipZap!**<sub><sup> [lightningrodlabs/zipzap](https://github.com/lightningrodlabs/zipzap) </sub></sup>
-
-ephemeral chat
-- 🕑 <relative-time datetime="2024-08-27T19:24:43.000Z">Aug 27, 2024</relative-time> on [main](https://github.com/lightningrodlabs/zipzap) by [@zippy](https://github.com/zippy)
-- 👥 [@zippy](https://github.com/zippy)
-
-**Emergence**<sub><sup> [holochain-apps/emergence](https://github.com/holochain-apps/emergence) </sub></sup>
-
-Holochain hApp for distributed event coordination
-- 🕑 <relative-time datetime="2024-08-07T23:04:31.000Z">Aug 7, 2024</relative-time> on [main](https://github.com/holochain-apps/emergence) by [@mattyg](https://github.com/mattyg)
-- 👥 [@zippy](https://github.com/zippy), [@brodeur](https://github.com/brodeur), [@mattyg](https://github.com/mattyg), [@starpause](https://github.com/starpause), [@jost-s](https://github.com/jost-s), [@steveej](https://github.com/steveej), [@unusedaccount](https://github.com/unusedaccount)
-
-**Converge**<sub><sup> [lightningrodlabs/converge](https://github.com/lightningrodlabs/converge) </sub></sup>
-
-Criteria-driven decision making/deliberation built on Holochain
-- 🕑 <relative-time datetime="2024-08-07T13:34:12.000Z">Aug 7, 2024</relative-time> on [0.3.1](https://github.com/lightningrodlabs/converge/tree/0.3.1) by [@LeosPrograms](https://github.com/LeosPrograms)
-- 👥 [@LeosPrograms](https://github.com/LeosPrograms)
-
-**where**<sub><sup> [lightningrodlabs/where](https://github.com/lightningrodlabs/where) </sub></sup>
-
-Tooling for group self-awareness on holochain
-- 🕑 <relative-time datetime="2024-08-06T15:12:39.000Z">Aug 6, 2024</relative-time> on [hdk-3.1](https://github.com/lightningrodlabs/where/tree/hdk-3.1) by [@ddd-mtl](https://github.com/ddd-mtl)
-- 👥 [@ddd-mtl](https://github.com/ddd-mtl), [@zippy](https://github.com/zippy), [@guillemcordoba](https://github.com/guillemcordoba), [@harlantwood](https://github.com/harlantwood), [@bierlingm](https://github.com/bierlingm)
-
-**Tables**<sub><sup> [lightningrodlabs/tables](https://github.com/lightningrodlabs/tables) </sub></sup>
-
-data tables
-- 🕑 <relative-time datetime="2024-07-25T11:02:29.000Z">Jul 25, 2024</relative-time> on [main](https://github.com/lightningrodlabs/tables) by [@LeosPrograms](https://github.com/LeosPrograms)
-- 👥 [@LeosPrograms](https://github.com/LeosPrograms), [@zippy](https://github.com/zippy)
-
-**Slate!**<sub><sup> [lightningrodlabs/slate](https://github.com/lightningrodlabs/slate) </sub></sup>
-
-- 🕑 <relative-time datetime="2024-06-30T21:59:56.000Z">Jun 30, 2024</relative-time> on [main](https://github.com/lightningrodlabs/slate) by [@tibetsprague](https://github.com/tibetsprague)
-- 👥 [@zippy](https://github.com/zippy), [@tibetsprague](https://github.com/tibetsprague)
-
-**Place**<sub><sup> [lightningrodlabs/place](https://github.com/lightningrodlabs/place) </sub></sup>
-
-- 🕑 <relative-time datetime="2023-11-01T19:37:54.000Z">Nov 1, 2023</relative-time> on [main](https://github.com/lightningrodlabs/place) by [@ddd-mtl](https://github.com/ddd-mtl)
-- 👥 [@ddd-mtl](https://github.com/ddd-mtl), [@zippy](https://github.com/zippy)
+| **Place**<sub><sup> [lightningrodlabs/place](https://github.com/lightningrodlabs/place) </sub></sup> |null |  <relative-time datetime="2023-11-01T19:37:54.000Z">Nov 1, 2023</relative-time> | [main](https://github.com/lightningrodlabs/place) | | [@ddd-mtl](https://github.com/ddd-mtl), [@zippy](https://github.com/zippy) |
 <!-- /GENERATE_HAPPS -->
 
 -- Missing data?

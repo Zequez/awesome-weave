@@ -47,7 +47,50 @@ function generateProjectText(p: Project) {
   return txt;
 }
 
-const projects = sortedProjects.map(generateProjectText).join("\n\n");
+function generateProjectText2(p: Project) {
+  let txt = "";
+  const title = p.readme?.title || capitalize(p.repo);
+  txt += `| **${title}**`;
+  txt += `<sub><sup> [${p.owner}/${p.repo}](${ghUrl(
+    p.owner + "/" + p.repo
+  )}) </sub></sup> |`;
+  txt += `${p.home?.description} | `;
+
+  const updateDate = p.home?.pushedAt ? new Date(p.home.pushedAt) : null;
+  const latestBranch = getLatestBranch(p.branches?.list || []);
+  const updateAuthorLogin = latestBranch?.author || null;
+  const updateAuthor = updateAuthorLogin ? DB.people[updateAuthorLogin] : null;
+  if (updateDate && latestBranch && updateAuthor) {
+    const isoDate = updateDate.toISOString();
+    // Example date: 6 Aug, 2016
+    const dateTxt = updateDate.toLocaleDateString("en-US", {
+      day: "numeric",
+      month: "short",
+      year: "numeric",
+    });
+    const branchLink = `[${latestBranch.name}](${ghUrl(latestBranch.path)})`;
+    txt += ` <relative-time datetime="${isoDate}">${dateTxt}</relative-time> | ${branchLink} | `;
+  } else {
+    txt += "| |";
+  }
+
+  if (p.contributors) {
+    const links = p.contributors.list
+      .map((c) => {
+        const p = DB.people[c.login];
+        return `[@${c.login}](${ghUrl(c.login)})`;
+      })
+      .join(", ");
+    txt += `| ${links} |`;
+  }
+
+  return txt;
+}
+
+const projectsHeader = `| Happ | Summary | Last updated | Last branch | Contributors |
+| --- | --- | --- | --- |\n`;
+const projects =
+  projectsHeader + sortedProjects.map(generateProjectText2).join("\n\n");
 const frames = Object.values(DB.frames).map(generateProjectText).join("\n\n");
 
 writeGenerated("GENERATE_HAPPS", projects);
