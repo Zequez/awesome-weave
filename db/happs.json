@@ -859,5 +859,58 @@
       "fetchedAt": 1730049213939,
       "title": "Tables"
     }
+  },
+  "lightningrodlabs/files": {
+    "owner": "lightningrodlabs",
+    "repo": "files",
+    "branches": {
+      "fetchedAt": 1730132357671,
+      "list": [
+        {
+          "name": "main",
+          "path": "/lightningrodlabs/files",
+          "authoredDate": 1710789511000,
+          "author": "ddd-mtl"
+        },
+        {
+          "name": "hdk-4.0-dev.20",
+          "path": "/lightningrodlabs/files/tree/hdk-4.0-dev.20",
+          "authoredDate": 1728414632000,
+          "author": "ddd-mtl"
+        },
+        {
+          "name": "hdk-v4.0-dev.20",
+          "path": "/lightningrodlabs/files/tree/hdk-v4.0-dev.20",
+          "authoredDate": 1724866138000,
+          "author": "ddd-mtl"
+        },
+        {
+          "name": "hdk-3.1",
+          "path": "/lightningrodlabs/files/tree/hdk-3.1",
+          "authoredDate": 1723224936000,
+          "author": "ddd-mtl"
+        }
+      ]
+    },
+    "home": {
+      "fetchedAt": 1730132357671,
+      "description": null,
+      "stars": 2,
+      "createdAt": 1693576338000,
+      "pushedAt": 1728414632000
+    },
+    "contributors": {
+      "fetchedAt": 1730132357671,
+      "list": [
+        {
+          "login": "ddd-mtl",
+          "contributions": 174
+        }
+      ]
+    },
+    "readme": {
+      "fetchedAt": 1730132359602,
+      "title": "Files hApp"
+    }
   }
 }

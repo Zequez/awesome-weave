@@ -31,7 +31,7 @@ In the same way the _Web_ is an open standard and there are _Web Browsers_ that 
 -->
 **Moss**<sub><sup> [lightningrodlabs/moss](https://github.com/lightningrodlabs/moss) </sub></sup>
 
-Creating group coherence with holochain apps 
+Creating group coherence with holochain apps
 - 🕑 <relative-time datetime="2024-10-25T17:26:47.000Z">Oct 25, 2024</relative-time> on [release-docs](https://github.com/lightningrodlabs/moss/tree/release-docs) by [@matthme](https://github.com/matthme)
 - 👥 [@matthme](https://github.com/matthme), [@zippy](https://github.com/zippy), [@LeosPrograms](https://github.com/LeosPrograms), [@brodeur](https://github.com/brodeur)
 <!-- /GENERATE_FRAMES -->
@@ -58,6 +58,7 @@ At the moment Weave and Moss are being co-evolved together as it is discovered w
 - lightningrodlabs/acorn
 - lightningrodlabs/place
 - lightningrodlabs/tables
+- lightningrodlabs/files
 -->
 
 | Happ | Summary | Last updated | Last branch | Contributors |
@@ -69,6 +70,7 @@ At the moment Weave and Moss are being co-evolved together as it is discovered w
 | **notebooks**<sub><sup> [lightningrodlabs/notebooks](https://github.com/lightningrodlabs/notebooks) </sub></sup> |  |   Oct 16, 2024 | [for-hdk-v0.4.0-rc](https://github.com/lightningrodlabs/notebooks/tree/for-hdk-v0.4.0-rc) | [@guillemcordoba](https://github.com/guillemcordoba), [@zippy](https://github.com/zippy), [@matthme](https://github.com/matthme), [@weswalla](https://github.com/weswalla) |
 | **TalkingStickies!**<sub><sup> [holochain-apps/talking-stickies](https://github.com/holochain-apps/talking-stickies) </sub></sup> | Real-time stickies-boards! |   Oct 15, 2024 | [main](https://github.com/holochain-apps/talking-stickies) | [@zippy](https://github.com/zippy), [@brodeur](https://github.com/brodeur) |
 | **KanDo!**<sub><sup> [holochain-apps/kando](https://github.com/holochain-apps/kando) </sub></sup> | Real-time KanBan Boards |   Oct 15, 2024 | [main](https://github.com/holochain-apps/kando) | [@zippy](https://github.com/zippy), [@mattyg](https://github.com/mattyg), [@brodeur](https://github.com/brodeur), [@matthme](https://github.com/matthme), [@guillemcordoba](https://github.com/guillemcordoba) |
+| **Files hApp**<sub><sup> [lightningrodlabs/files](https://github.com/lightningrodlabs/files) </sub></sup> |  |   Oct 8, 2024 | [hdk-4.0-dev.20](https://github.com/lightningrodlabs/files/tree/hdk-4.0-dev.20) | [@ddd-mtl](https://github.com/ddd-mtl) |
 | **Acorn**<sub><sup> [lightningrodlabs/acorn](https://github.com/lightningrodlabs/acorn) </sub></sup> | Built with Holochain, Acorn is an open-source, peer-to-peer project management application. It is designed and built as a scrum-alternative, Agile Development Pattern for distributed software development teams.  Acorn is currently in Alpha testing phase. |   Sep 13, 2024 | [feature/weave-applet-port](https://github.com/lightningrodlabs/acorn/tree/feature/weave-applet-port) | [@Connoropolous](https://github.com/Connoropolous), [@pegahvaezi](https://github.com/pegahvaezi), [@weswalla](https://github.com/weswalla), [@kbonnici](https://github.com/kbonnici), [@harlantwood](https://github.com/harlantwood) |
 | **Whos in?**<sub><sup> [lightningrodlabs/whos-in](https://github.com/lightningrodlabs/whos-in) </sub></sup> | Distributed Collective Action Network |   Sep 12, 2024 | [feature/cross-applet-view](https://github.com/lightningrodlabs/whos-in/tree/feature/cross-applet-view) | [@LeosPrograms](https://github.com/LeosPrograms) |
 | **snapmail**<sub><sup> [glassbeadsoftware/snapmail](https://github.com/glassbeadsoftware/snapmail) </sub></sup> | repo for snapmail electron based releases |   Aug 28, 2024 | [hdk-4.0-dev.20](https://github.com/glassbeadsoftware/snapmail/tree/hdk-4.0-dev.20) | [@ddd-mtl](https://github.com/ddd-mtl), [@zippy](https://github.com/zippy) |
@@ -83,7 +85,6 @@ At the moment Weave and Moss are being co-evolved together as it is discovered w
 
 -- Missing data?
 - Datatub
-- Files
 
 ---
 
@@ -103,6 +104,7 @@ At the moment Weave and Moss are being co-evolved together as it is discovered w
 - Holochain Client (@holochain/client)
 - Weave API (@theweave/api)
 - Weave Elements (@theweave/elements)
+- [lit-happ](https://github.com/ddd-mtl/lit-happ): A MVVM framework for building holochain apps web UI with Lit.
 
 {Add same info as for Happs}
 
