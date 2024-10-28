@@ -31,7 +31,7 @@ In the same way the _Web_ is an open standard and there are _Web Browsers_ that 
 -->
 **Moss**<sub><sup> [lightningrodlabs/moss](https://github.com/lightningrodlabs/moss) </sub></sup>
 
-Creating group coherence with holochain apps
+Creating group coherence with holochain apps 
 - 🕑 <relative-time datetime="2024-10-25T17:26:47.000Z">Oct 25, 2024</relative-time> on [release-docs](https://github.com/lightningrodlabs/moss/tree/release-docs) by [@matthme](https://github.com/matthme)
 - 👥 [@matthme](https://github.com/matthme), [@zippy](https://github.com/zippy), [@LeosPrograms](https://github.com/LeosPrograms), [@brodeur](https://github.com/brodeur)
 <!-- /GENERATE_FRAMES -->
@@ -62,11 +62,11 @@ At the moment Weave and Moss are being co-evolved together as it is discovered w
 
 | Happ | Summary | Last updated | Last branch | Contributors |
 | --- | --- | --- | --- | --- |
+| **Calcy!**<sub><sup> [lightningrodlabs/calcy](https://github.com/lightningrodlabs/calcy) </sub></sup> | Spreadsheet for Holochain |   Oct 27, 2024 | [feature/OT](https://github.com/lightningrodlabs/calcy/tree/feature/OT) | [@zippy](https://github.com/zippy), [@LeosPrograms](https://github.com/LeosPrograms) |
 | **Gamez!**<sub><sup> [holochain-apps/gamez](https://github.com/holochain-apps/gamez) </sub></sup> | Board Games, make-em, play-em! |   Oct 26, 2024 | [main](https://github.com/holochain-apps/gamez) | [@Zequez](https://github.com/Zequez), [@zippy](https://github.com/zippy) |
 | **Vines**<sub><sup> [lightningrodlabs/vines](https://github.com/lightningrodlabs/vines) </sub></sup> | tooling for conversation in group spaces |   Oct 25, 2024 | [hdk-4.0-dev.20](https://github.com/lightningrodlabs/vines/tree/hdk-4.0-dev.20) | [@ddd-mtl](https://github.com/ddd-mtl), [@zippy](https://github.com/zippy) |
 | **Presence**<sub><sup> [matthme/presence](https://github.com/matthme/presence) </sub></sup> | Peer-to-Peer Privacy-Preserving Video Calls leveraging Holochain |   Oct 21, 2024 | [main](https://github.com/matthme/presence) | [@matthme](https://github.com/matthme) |
 | **notebooks**<sub><sup> [lightningrodlabs/notebooks](https://github.com/lightningrodlabs/notebooks) </sub></sup> |  |   Oct 16, 2024 | [for-hdk-v0.4.0-rc](https://github.com/lightningrodlabs/notebooks/tree/for-hdk-v0.4.0-rc) | [@guillemcordoba](https://github.com/guillemcordoba), [@zippy](https://github.com/zippy), [@matthme](https://github.com/matthme), [@weswalla](https://github.com/weswalla) |
-| **Calcy!**<sub><sup> [lightningrodlabs/calcy](https://github.com/lightningrodlabs/calcy) </sub></sup> | Spreadsheet for Holochain |   Oct 16, 2024 | [feature/OT](https://github.com/lightningrodlabs/calcy/tree/feature/OT) | [@zippy](https://github.com/zippy), [@LeosPrograms](https://github.com/LeosPrograms) |
 | **TalkingStickies!**<sub><sup> [holochain-apps/talking-stickies](https://github.com/holochain-apps/talking-stickies) </sub></sup> | Real-time stickies-boards! |   Oct 15, 2024 | [main](https://github.com/holochain-apps/talking-stickies) | [@zippy](https://github.com/zippy), [@brodeur](https://github.com/brodeur) |
 | **KanDo!**<sub><sup> [holochain-apps/kando](https://github.com/holochain-apps/kando) </sub></sup> | Real-time KanBan Boards |   Oct 15, 2024 | [main](https://github.com/holochain-apps/kando) | [@zippy](https://github.com/zippy), [@mattyg](https://github.com/mattyg), [@brodeur](https://github.com/brodeur), [@matthme](https://github.com/matthme), [@guillemcordoba](https://github.com/guillemcordoba) |
 | **Acorn**<sub><sup> [lightningrodlabs/acorn](https://github.com/lightningrodlabs/acorn) </sub></sup> | Built with Holochain, Acorn is an open-source, peer-to-peer project management application. It is designed and built as a scrum-alternative, Agile Development Pattern for distributed software development teams.  Acorn is currently in Alpha testing phase. |   Sep 13, 2024 | [feature/weave-applet-port](https://github.com/lightningrodlabs/acorn/tree/feature/weave-applet-port) | [@Connoropolous](https://github.com/Connoropolous), [@pegahvaezi](https://github.com/pegahvaezi), [@weswalla](https://github.com/weswalla), [@kbonnici](https://github.com/kbonnici), [@harlantwood](https://github.com/harlantwood) |

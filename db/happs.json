@@ -3,7 +3,7 @@
     "owner": "matthme",
     "repo": "presence",
     "home": {
-      "fetchedAt": 1730037443609,
+      "fetchedAt": 1730129659699,
       "description": "Peer-to-Peer Privacy-Preserving Video Calls leveraging Holochain",
       "stars": 2,
       "createdAt": 1703845464000,
@@ -62,7 +62,7 @@
     "owner": "holochain-apps",
     "repo": "kando",
     "home": {
-      "fetchedAt": 1730037444081,
+      "fetchedAt": 1730129660450,
       "description": "Real-time KanBan Boards",
       "stars": 3,
       "createdAt": 1689012760000,
@@ -125,7 +125,7 @@
     "owner": "lightningrodlabs",
     "repo": "vines",
     "home": {
-      "fetchedAt": 1730037444383,
+      "fetchedAt": 1730129660772,
       "description": "tooling for conversation in group spaces",
       "stars": 2,
       "createdAt": 1680887974000,
@@ -176,7 +176,7 @@
     "owner": "lightningrodlabs",
     "repo": "whos-in",
     "home": {
-      "fetchedAt": 1730037444670,
+      "fetchedAt": 1730129661079,
       "description": "Distributed Collective Action Network",
       "stars": 2,
       "createdAt": 1679408368000,
@@ -223,7 +223,7 @@
     "owner": "lightningrodlabs",
     "repo": "zipzap",
     "home": {
-      "fetchedAt": 1730037445016,
+      "fetchedAt": 1730129661401,
       "description": "ephemeral chat",
       "stars": 0,
       "createdAt": 1713014912000,
@@ -258,7 +258,7 @@
     "owner": "lightningrodlabs",
     "repo": "slate",
     "home": {
-      "fetchedAt": 1730037445299,
+      "fetchedAt": 1730129661710,
       "description": null,
       "stars": 1,
       "createdAt": 1705959855000,
@@ -297,11 +297,11 @@
     "owner": "lightningrodlabs",
     "repo": "calcy",
     "home": {
-      "fetchedAt": 1730037445630,
+      "fetchedAt": 1730129662032,
       "description": "Spreadsheet for Holochain",
       "stars": 6,
       "createdAt": 1707234962000,
-      "pushedAt": 1729093406000
+      "pushedAt": 1730056541000
     },
     "branches": {
       "fetchedAt": 1730050105218,
@@ -348,7 +348,7 @@
     "owner": "lightningrodlabs",
     "repo": "notebooks",
     "home": {
-      "fetchedAt": 1730037445939,
+      "fetchedAt": 1730129662365,
       "description": null,
       "stars": 5,
       "createdAt": 1635953178000,
@@ -401,7 +401,7 @@
     "owner": "holochain-apps",
     "repo": "talking-stickies",
     "home": {
-      "fetchedAt": 1730037446338,
+      "fetchedAt": 1730129662696,
       "description": "Real-time stickies-boards!",
       "stars": 1,
       "createdAt": 1693332836000,
@@ -446,7 +446,7 @@
     "owner": "holochain-apps",
     "repo": "gamez",
     "home": {
-      "fetchedAt": 1730037446643,
+      "fetchedAt": 1730129663020,
       "description": "Board Games, make-em, play-em!",
       "stars": 1,
       "createdAt": 1689898084000,
@@ -515,7 +515,7 @@
     "owner": "holochain-apps",
     "repo": "emergence",
     "home": {
-      "fetchedAt": 1730037446961,
+      "fetchedAt": 1730129663323,
       "description": "Holochain hApp for distributed event coordination",
       "stars": 23,
       "createdAt": 1680718569000,
@@ -580,7 +580,7 @@
     "owner": "lightningrodlabs",
     "repo": "where",
     "home": {
-      "fetchedAt": 1730037447268,
+      "fetchedAt": 1730129663640,
       "description": "Tooling for group self-awareness on holochain",
       "stars": 25,
       "createdAt": 1629207393000,
@@ -637,7 +637,7 @@
     "owner": "lightningrodlabs",
     "repo": "converge",
     "home": {
-      "fetchedAt": 1730037447659,
+      "fetchedAt": 1730129663958,
       "description": "Criteria-driven decision making/deliberation built on Holochain",
       "stars": 4,
       "createdAt": 1691687184000,
@@ -678,7 +678,7 @@
     "owner": "glassbeadsoftware",
     "repo": "snapmail",
     "home": {
-      "fetchedAt": 1730037447956,
+      "fetchedAt": 1730129664329,
       "description": "repo for snapmail electron based releases",
       "stars": 19,
       "createdAt": 1589945364000,
@@ -729,7 +729,7 @@
     "owner": "lightningrodlabs",
     "repo": "acorn",
     "home": {
-      "fetchedAt": 1730037448232,
+      "fetchedAt": 1730129664616,
       "description": "Built with Holochain, Acorn is an open-source, peer-to-peer project management application. It is designed and built as a scrum-alternative, Agile Development Pattern for distributed software development teams.  Acorn is currently in Alpha testing phase.",
       "stars": 102,
       "createdAt": 1616520326000,
@@ -786,7 +786,7 @@
     "owner": "lightningrodlabs",
     "repo": "place",
     "home": {
-      "fetchedAt": 1730037448512,
+      "fetchedAt": 1730129664950,
       "description": null,
       "stars": 3,
       "createdAt": 1649087770000,
@@ -825,7 +825,7 @@
     "owner": "lightningrodlabs",
     "repo": "tables",
     "home": {
-      "fetchedAt": 1730037448792,
+      "fetchedAt": 1730129665256,
       "description": "data tables",
       "stars": 4,
       "createdAt": 1709652174000,
