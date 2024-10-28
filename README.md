@@ -107,6 +107,7 @@ At the moment Weave and Moss are being co-evolved together as it is discovered w
 - [lit-happ](https://github.com/ddd-mtl/lit-happ): A MVVM framework for building holochain apps web UI with Lit.
 - [hREA](https://github.com/h-REA/hREA): A ValueFlows / REA economic network coordination system implemented on Holochain and with supplied Javascript GraphQL libraries
 - [Notifications](https://github.com/holochain-open-dev/notifications): External notification management zome for Holochain hApps
+- [Profiles](https://github.com/holochain-open-dev/profiles): Profile management zome for Holochain hApps with at least a nickname
 
 {Add same info as for Happs}
 
