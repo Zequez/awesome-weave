@@ -106,6 +106,7 @@ At the moment Weave and Moss are being co-evolved together as it is discovered w
 - Weave Elements (@theweave/elements)
 - [lit-happ](https://github.com/ddd-mtl/lit-happ): A MVVM framework for building holochain apps web UI with Lit.
 - [hREA](https://github.com/h-REA/hREA): A ValueFlows / REA economic network coordination system implemented on Holochain and with supplied Javascript GraphQL libraries
+- [Notifications](https://github.com/holochain-open-dev/notifications): External notification management zome for Holochain hApps
 
 {Add same info as for Happs}
 
