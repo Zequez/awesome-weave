@@ -94,20 +94,23 @@ At the moment Weave and Moss are being co-evolved together as it is discovered w
 
 ## Libraries
 
-- Syn [holochain/syn](https://github.com/holochain/syn)
-  - Generalized Holochain DNA and UI library for building real-time shared state hApps
-- Holochain Open Dev
-  - Stores (@holochain-open-dev/stores)
-  - Profiles (@holochain-open-dev/profiles)
-  - Elements (@holochain-open-dev/elements)
-  - Utils (@holochain-open-dev/utils)
-- Holochain Client (@holochain/client)
-- Weave API (@theweave/api)
-- Weave Elements (@theweave/elements)
-- [lit-happ](https://github.com/ddd-mtl/lit-happ): A MVVM framework for building holochain apps web UI with Lit.
-- [hREA](https://github.com/h-REA/hREA): A ValueFlows / REA economic network coordination system implemented on Holochain and with supplied Javascript GraphQL libraries
-- [Notifications](https://github.com/holochain-open-dev/notifications): External notification management zome for Holochain hApps
-- [Profiles](https://github.com/holochain-open-dev/profiles): Profile management zome for Holochain hApps with at least a nickname
+- On [Moss monorepo](https://github.com/lightningrodlabs/moss)
+  - **Weave API** [libs/api](https://github.com/lightningrodlabs/moss/tree/main/libs/api): Interfaces and contracts that a Holochain app UI needs to implement in order to run as a Tool in a Weave Frame like Moss.
+  - **Weave Elements** [libs/elements](https://github.com/lightningrodlabs/moss/tree/main/libs/elements): UI elements that can be used in We Applets to implement We specific functionality.
+  - **Weave Attachments** [libs/attachments](https://github.com/lightningrodlabs/moss/tree/main/libs/attachments): Store and elements for implementing UI for attachments in a We Applet based on the official attachments zome
+- [**Holochain Open Dev**](https://github.com/holochain-open-dev)
+  - **Profiles** [holochain-open-dev/profiles](https://github.com/holochain-open-dev/profiles): Profile management zome for Holochain hApps with at least a nickname
+  - **Stores** [@holochain-open-dev/stores NPM](https://www.npmjs.com/package/@holochain-open-dev/stores): Re-export of svelte/store, with some additional utilities on top of it.
+  - **Elements** [@holochain-open-dev/elements NPM](https://www.npmjs.com/package/@holochain-open-dev/elements): Common elements and element related utilities to build Holochain web applications.
+  - **Utils** [@holochain-open-dev/utils NPM](https://www.npmjs.com/package/@holochain-open-dev/utils): Utilities to build Holochain web applications.
+  - **File Storage** [holochain-open-dev/file-storage](https://github.com/holochain-open-dev/file-storage): File Storage zome and UI module to store files in a holochain DHT
+  - **Notifications** [holochain-open-dev/notifications](https://github.com/holochain-open-dev/notifications): External notification management zome for Holochain hApps
+- [**Holochain**](https://github.com/holochain)
+  - **Holochain JS Client** [holochain/holochain-client-js](https://github.com/holochain/holochain-client-js): A JavaScript client for the Holochain Conductor API
+  - **Syn** [holochain/syn](https://github.com/holochain/syn): Generalized Holochain DNA and UI library for building real-time shared state hApps
+- **Lit Happ** [lit-happ](https://github.com/ddd-mtl/lit-happ): A MVVM framework for building holochain apps web UI with Lit.
+- **hREA** [h-REA/hREA](https://github.com/h-REA/hREA): A ValueFlows / REA economic network coordination system implemented on Holochain and with supplied Javascript GraphQL libraries
+
 
 {Add same info as for Happs}
 
