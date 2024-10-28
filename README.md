@@ -1,3 +1,8 @@
+
+<p align="center">
+<img alt="Moss icon with 3 Earth emojis and 1 heart" src="./public/awesome-moss.png" width="250px"/>
+</p>
+
 # Awesome Weave
 > 🍀 A curated list of awesome Weave resources
 
