@@ -7,7 +7,7 @@
 - [Weave frames](#weave-frames)
 - [Happs](#happs)
 - [Libraries](#libraries)
-- [Boilerplates](#boilerplates)
+- [Templates](#templates)
 - [Tutorials](#tutorials)
 - [Contributors](#contributors)
 - [Teams using Weave](#teams-using-weave)
@@ -105,10 +105,11 @@ At the moment Weave and Moss are being co-evolved together as it is discovered w
 - Weave API (@theweave/api)
 - Weave Elements (@theweave/elements)
 - [lit-happ](https://github.com/ddd-mtl/lit-happ): A MVVM framework for building holochain apps web UI with Lit.
+- [hREA](https://github.com/h-REA/hREA): A ValueFlows / REA economic network coordination system implemented on Holochain and with supplied Javascript GraphQL libraries
 
 {Add same info as for Happs}
 
-## Boilerplates
+## Templates
 
 ## Tutorials
 
