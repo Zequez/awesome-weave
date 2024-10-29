@@ -36,8 +36,8 @@ In the same way the _Web_ is an open standard and there are _Web Browsers_ that 
 -->
 **Moss**<sub><sup> [lightningrodlabs/moss](https://github.com/lightningrodlabs/moss) </sub></sup>
 
-Creating group coherence with holochain apps
-- 🕑 <relative-time datetime="2024-10-25T17:26:47.000Z">Oct 25, 2024</relative-time> on [release-docs](https://github.com/lightningrodlabs/moss/tree/release-docs) by [@matthme](https://github.com/matthme)
+Creating group coherence with holochain apps 
+- 🕑 <relative-time datetime="2024-10-29T11:07:05.000Z">Oct 29, 2024</relative-time> on [main](https://github.com/lightningrodlabs/moss) by [@matthme](https://github.com/matthme)
 - 👥 [@matthme](https://github.com/matthme), [@zippy](https://github.com/zippy), [@LeosPrograms](https://github.com/LeosPrograms), [@brodeur](https://github.com/brodeur)
 <!-- /GENERATE_FRAMES -->
 
@@ -68,7 +68,7 @@ At the moment Weave and Moss are being co-evolved together as it is discovered w
 
 | Happ | Summary | Last updated | Last branch | Contributors |
 | --- | --- | --- | --- | --- |
-| **Calcy!**<sub><sup> [lightningrodlabs/calcy](https://github.com/lightningrodlabs/calcy) </sub></sup> | Spreadsheet for Holochain |   Oct 27, 2024 | [feature/OT](https://github.com/lightningrodlabs/calcy/tree/feature/OT) | [@zippy](https://github.com/zippy), [@LeosPrograms](https://github.com/LeosPrograms) |
+| **Calcy!**<sub><sup> [lightningrodlabs/calcy](https://github.com/lightningrodlabs/calcy) </sub></sup> | Spreadsheet for Holochain |   Oct 27, 2024 | [feature/OT](https://github.com/lightningrodlabs/sweet/tree/feature/OT) | [@zippy](https://github.com/zippy), [@LeosPrograms](https://github.com/LeosPrograms) |
 | **Gamez!**<sub><sup> [holochain-apps/gamez](https://github.com/holochain-apps/gamez) </sub></sup> | Board Games, make-em, play-em! |   Oct 26, 2024 | [main](https://github.com/holochain-apps/gamez) | [@Zequez](https://github.com/Zequez), [@zippy](https://github.com/zippy) |
 | **Vines**<sub><sup> [lightningrodlabs/vines](https://github.com/lightningrodlabs/vines) </sub></sup> | tooling for conversation in group spaces |   Oct 25, 2024 | [hdk-4.0-dev.20](https://github.com/lightningrodlabs/vines/tree/hdk-4.0-dev.20) | [@ddd-mtl](https://github.com/ddd-mtl), [@zippy](https://github.com/zippy) |
 | **Presence**<sub><sup> [matthme/presence](https://github.com/matthme/presence) </sub></sup> | Peer-to-Peer Privacy-Preserving Video Calls leveraging Holochain |   Oct 21, 2024 | [main](https://github.com/matthme/presence) | [@matthme](https://github.com/matthme) |
