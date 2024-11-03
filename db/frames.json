@@ -3,12 +3,18 @@
     "owner": "lightningrodlabs",
     "repo": "moss",
     "branches": {
-      "fetchedAt": 1730203386004,
+      "fetchedAt": 1730655436020,
       "list": [
         {
           "name": "main",
           "path": "/lightningrodlabs/moss",
-          "authoredDate": 1730200025000,
+          "authoredDate": 1730285060000,
+          "author": "matthme"
+        },
+        {
+          "name": "feat/asset-relations",
+          "path": "/lightningrodlabs/moss/tree/feat/asset-relations",
+          "authoredDate": 1730368331000,
           "author": "matthme"
         },
         {
@@ -34,28 +40,22 @@
           "path": "/lightningrodlabs/moss/tree/feat/moss-update-in-feed",
           "authoredDate": 1729011883000,
           "author": "matthme"
-        },
-        {
-          "name": "fix/profiles-ui",
-          "path": "/lightningrodlabs/moss/tree/fix/profiles-ui",
-          "authoredDate": 1728382680000,
-          "author": "matthme"
         }
       ]
     },
     "home": {
-      "fetchedAt": 1730203386004,
+      "fetchedAt": 1730655436020,
       "description": "Creating group coherence with holochain apps ",
       "stars": 22,
       "createdAt": 1701874682000,
-      "pushedAt": 1730200025000
+      "pushedAt": 1730368331000
     },
     "contributors": {
-      "fetchedAt": 1730203386004,
+      "fetchedAt": 1730655436020,
       "list": [
         {
           "login": "matthme",
-          "contributions": 1181
+          "contributions": 1182
         },
         {
           "login": "zippy",
