@@ -3,19 +3,19 @@
     "owner": "matthme",
     "repo": "presence",
     "home": {
-      "fetchedAt": 1731259392445,
+      "fetchedAt": 1732491152276,
       "description": "Peer-to-Peer Privacy-Preserving Video Calls leveraging Holochain",
       "stars": 2,
       "createdAt": 1703845464000,
-      "pushedAt": 1730280919000
+      "pushedAt": 1732479343000
     },
     "branches": {
-      "fetchedAt": 1731259392445,
+      "fetchedAt": 1732491152276,
       "list": [
         {
           "name": "main",
           "path": "/matthme/presence",
-          "authoredDate": 1730280919000,
+          "authoredDate": 1732479235000,
           "author": "matthme"
         },
         {
@@ -45,16 +45,16 @@
       ]
     },
     "contributors": {
-      "fetchedAt": 1731259392445,
+      "fetchedAt": 1732491152276,
       "list": [
         {
           "login": "matthme",
-          "contributions": 125
+          "contributions": 129
         }
       ]
     },
     "readme": {
-      "fetchedAt": 1731331213775,
+      "fetchedAt": 1732491154247,
       "title": "Presence"
     }
   },
@@ -62,19 +62,19 @@
     "owner": "holochain-apps",
     "repo": "kando",
     "home": {
-      "fetchedAt": 1731259394168,
+      "fetchedAt": 1732491154247,
       "description": "Real-time KanBan Boards",
       "stars": 3,
       "createdAt": 1689012760000,
-      "pushedAt": 1731001240000
+      "pushedAt": 1732043213000
     },
     "branches": {
-      "fetchedAt": 1731259394168,
+      "fetchedAt": 1732491154247,
       "list": [
         {
           "name": "main",
           "path": "/holochain-apps/kando",
-          "authoredDate": 1731001240000,
+          "authoredDate": 1732043088000,
           "author": "zippy"
         },
         {
@@ -86,11 +86,11 @@
       ]
     },
     "contributors": {
-      "fetchedAt": 1731259394168,
+      "fetchedAt": 1732491154247,
       "list": [
         {
           "login": "zippy",
-          "contributions": 225
+          "contributions": 231
         },
         {
           "login": "mattyg",
@@ -111,7 +111,7 @@
       ]
     },
     "readme": {
-      "fetchedAt": 1731331214095,
+      "fetchedAt": 1732491155588,
       "title": "KanDo!"
     }
   },
@@ -119,14 +119,14 @@
     "owner": "lightningrodlabs",
     "repo": "vines",
     "home": {
-      "fetchedAt": 1731259395359,
+      "fetchedAt": 1732491155588,
       "description": "tooling for conversation in group spaces",
       "stars": 2,
       "createdAt": 1680887974000,
-      "pushedAt": 1730386134000
+      "pushedAt": 1732215696000
     },
     "branches": {
-      "fetchedAt": 1731259395359,
+      "fetchedAt": 1732491155588,
       "list": [
         {
           "name": "main",
@@ -137,7 +137,7 @@
         {
           "name": "hdk-4.0-dev.20",
           "path": "/lightningrodlabs/vines/tree/hdk-4.0-dev.20",
-          "authoredDate": 1730386134000,
+          "authoredDate": 1732215696000,
           "author": "ddd-mtl"
         },
         {
@@ -149,7 +149,7 @@
       ]
     },
     "contributors": {
-      "fetchedAt": 1731259395359,
+      "fetchedAt": 1732491155588,
       "list": [
         {
           "login": "ddd-mtl",
@@ -162,7 +162,7 @@
       ]
     },
     "readme": {
-      "fetchedAt": 1731331214423,
+      "fetchedAt": 1732491156966,
       "title": "Vines"
     }
   },
@@ -170,14 +170,14 @@
     "owner": "lightningrodlabs",
     "repo": "whos-in",
     "home": {
-      "fetchedAt": 1731259396592,
+      "fetchedAt": 1732491156966,
       "description": "Distributed Collective Action Network",
       "stars": 2,
       "createdAt": 1679408368000,
       "pushedAt": 1726159351000
     },
     "branches": {
-      "fetchedAt": 1731259396592,
+      "fetchedAt": 1732491156966,
       "list": [
         {
           "name": "main",
@@ -190,17 +190,11 @@
           "path": "/lightningrodlabs/whos-in/tree/feature/cross-applet-view",
           "authoredDate": 1726159256000,
           "author": "LeosPrograms"
-        },
-        {
-          "name": "0.3.1",
-          "path": "/lightningrodlabs/whos-in/tree/0.3.1",
-          "authoredDate": 1724431885000,
-          "author": "LeosPrograms"
         }
       ]
     },
     "contributors": {
-      "fetchedAt": 1731259396592,
+      "fetchedAt": 1732491156966,
       "list": [
         {
           "login": "LeosPrograms",
@@ -209,7 +203,7 @@
       ]
     },
     "readme": {
-      "fetchedAt": 1731331214782,
+      "fetchedAt": 1732491158381,
       "title": "Whos in?"
     }
   },
@@ -217,14 +211,14 @@
     "owner": "lightningrodlabs",
     "repo": "zipzap",
     "home": {
-      "fetchedAt": 1731259397644,
+      "fetchedAt": 1732491158381,
       "description": "ephemeral chat",
       "stars": 0,
       "createdAt": 1713014912000,
       "pushedAt": 1724786683000
     },
     "branches": {
-      "fetchedAt": 1731259397644,
+      "fetchedAt": 1732491158381,
       "list": [
         {
           "name": "main",
@@ -235,7 +229,7 @@
       ]
     },
     "contributors": {
-      "fetchedAt": 1731259397644,
+      "fetchedAt": 1732491158381,
       "list": [
         {
           "login": "zippy",
@@ -244,7 +238,7 @@
       ]
     },
     "readme": {
-      "fetchedAt": 1731331215134,
+      "fetchedAt": 1732491159935,
       "title": "ZipZap!"
     }
   },
@@ -252,14 +246,14 @@
     "owner": "lightningrodlabs",
     "repo": "slate",
     "home": {
-      "fetchedAt": 1731259398729,
+      "fetchedAt": 1732491159935,
       "description": null,
       "stars": 1,
       "createdAt": 1705959855000,
       "pushedAt": 1719784796000
     },
     "branches": {
-      "fetchedAt": 1731259398729,
+      "fetchedAt": 1732491159935,
       "list": [
         {
           "name": "main",
@@ -270,7 +264,7 @@
       ]
     },
     "contributors": {
-      "fetchedAt": 1731259398729,
+      "fetchedAt": 1732491159935,
       "list": [
         {
           "login": "zippy",
@@ -283,7 +277,7 @@
       ]
     },
     "readme": {
-      "fetchedAt": 1731331215498,
+      "fetchedAt": 1732491161312,
       "title": "Slate!"
     }
   },
@@ -291,14 +285,14 @@
     "owner": "lightningrodlabs",
     "repo": "calcy",
     "home": {
-      "fetchedAt": 1731259399747,
+      "fetchedAt": 1732491161312,
       "description": "Spreadsheet for Holochain",
       "stars": 6,
       "createdAt": 1707234962000,
       "pushedAt": 1730056541000
     },
     "branches": {
-      "fetchedAt": 1731259399747,
+      "fetchedAt": 1732491161312,
       "list": [
         {
           "name": "main",
@@ -315,7 +309,7 @@
       ]
     },
     "contributors": {
-      "fetchedAt": 1731259399747,
+      "fetchedAt": 1732491161312,
       "list": [
         {
           "login": "zippy",
@@ -328,7 +322,7 @@
       ]
     },
     "readme": {
-      "fetchedAt": 1731331216042,
+      "fetchedAt": 1732491163761,
       "title": "Calcy!"
     }
   },
@@ -336,14 +330,14 @@
     "owner": "lightningrodlabs",
     "repo": "notebooks",
     "home": {
-      "fetchedAt": 1731259401485,
+      "fetchedAt": 1732491163761,
       "description": null,
       "stars": 5,
       "createdAt": 1635953178000,
       "pushedAt": 1729102876000
     },
     "branches": {
-      "fetchedAt": 1731259401485,
+      "fetchedAt": 1732491163761,
       "list": [
         {
           "name": "main",
@@ -360,7 +354,7 @@
       ]
     },
     "contributors": {
-      "fetchedAt": 1731259401485,
+      "fetchedAt": 1732491163761,
       "list": [
         {
           "login": "guillemcordoba",
@@ -381,7 +375,7 @@
       ]
     },
     "readme": {
-      "fetchedAt": 1731331216355,
+      "fetchedAt": 1732491165260,
       "title": "notebooks"
     }
   },
@@ -389,14 +383,14 @@
     "owner": "holochain-apps",
     "repo": "talking-stickies",
     "home": {
-      "fetchedAt": 1731259402584,
+      "fetchedAt": 1732491165260,
       "description": "Real-time stickies-boards!",
       "stars": 1,
       "createdAt": 1693332836000,
       "pushedAt": 1729025690000
     },
     "branches": {
-      "fetchedAt": 1731259402584,
+      "fetchedAt": 1732491165260,
       "list": [
         {
           "name": "main",
@@ -413,7 +407,7 @@
       ]
     },
     "contributors": {
-      "fetchedAt": 1731259402584,
+      "fetchedAt": 1732491165260,
       "list": [
         {
           "login": "zippy",
@@ -426,7 +420,7 @@
       ]
     },
     "readme": {
-      "fetchedAt": 1731331216714,
+      "fetchedAt": 1732491166608,
       "title": "TalkingStickies!"
     }
   },
@@ -434,19 +428,19 @@
     "owner": "holochain-apps",
     "repo": "gamez",
     "home": {
-      "fetchedAt": 1731259403622,
+      "fetchedAt": 1732491166609,
       "description": "Board Games, make-em, play-em!",
       "stars": 1,
       "createdAt": 1689898084000,
-      "pushedAt": 1730671842000
+      "pushedAt": 1732454028000
     },
     "branches": {
-      "fetchedAt": 1731259403622,
+      "fetchedAt": 1732491166609,
       "list": [
         {
           "name": "main",
           "path": "/holochain-apps/gamez",
-          "authoredDate": 1730671842000,
+          "authoredDate": 1732454028000,
           "author": "Zequez"
         },
         {
@@ -460,27 +454,15 @@
           "path": "/holochain-apps/gamez/tree/new-board-editor",
           "authoredDate": 1725324770000,
           "author": "Zequez"
-        },
-        {
-          "name": "code-organization-and-linting",
-          "path": "/holochain-apps/gamez/tree/code-organization-and-linting",
-          "authoredDate": 1723515438000,
-          "author": "Zequez"
-        },
-        {
-          "name": "ui-detailing",
-          "path": "/holochain-apps/gamez/tree/ui-detailing",
-          "authoredDate": 1723509518000,
-          "author": "Zequez"
         }
       ]
     },
     "contributors": {
-      "fetchedAt": 1731259403622,
+      "fetchedAt": 1732491166609,
       "list": [
         {
           "login": "Zequez",
-          "contributions": 187
+          "contributions": 202
         },
         {
           "login": "zippy",
@@ -489,7 +471,7 @@
       ]
     },
     "readme": {
-      "fetchedAt": 1731331217107,
+      "fetchedAt": 1732491168126,
       "title": "Gamez!"
     }
   },
@@ -497,14 +479,14 @@
     "owner": "holochain-apps",
     "repo": "emergence",
     "home": {
-      "fetchedAt": 1731259404739,
+      "fetchedAt": 1732491168127,
       "description": "Holochain hApp for distributed event coordination",
       "stars": 23,
       "createdAt": 1680718569000,
       "pushedAt": 1723071871000
     },
     "branches": {
-      "fetchedAt": 1731259404739,
+      "fetchedAt": 1732491168127,
       "list": [
         {
           "name": "main",
@@ -515,7 +497,7 @@
       ]
     },
     "contributors": {
-      "fetchedAt": 1731259404739,
+      "fetchedAt": 1732491168127,
       "list": [
         {
           "login": "zippy",
@@ -548,7 +530,7 @@
       ]
     },
     "readme": {
-      "fetchedAt": 1731331217447,
+      "fetchedAt": 1732491169562,
       "title": "Emergence"
     }
   },
@@ -556,14 +538,14 @@
     "owner": "lightningrodlabs",
     "repo": "where",
     "home": {
-      "fetchedAt": 1731259405871,
+      "fetchedAt": 1732491169562,
       "description": "Tooling for group self-awareness on holochain",
       "stars": 25,
       "createdAt": 1629207393000,
       "pushedAt": 1730314317000
     },
     "branches": {
-      "fetchedAt": 1731259405871,
+      "fetchedAt": 1732491169562,
       "list": [
         {
           "name": "main",
@@ -586,7 +568,7 @@
       ]
     },
     "contributors": {
-      "fetchedAt": 1731259405871,
+      "fetchedAt": 1732491169562,
       "list": [
         {
           "login": "ddd-mtl",
@@ -611,7 +593,7 @@
       ]
     },
     "readme": {
-      "fetchedAt": 1731331217944,
+      "fetchedAt": 1732491171096,
       "title": "where"
     }
   },
@@ -619,25 +601,31 @@
     "owner": "lightningrodlabs",
     "repo": "converge",
     "home": {
-      "fetchedAt": 1731259407145,
+      "fetchedAt": 1732491171096,
       "description": "Criteria-driven decision making/deliberation built on Holochain",
       "stars": 4,
       "createdAt": 1691687184000,
-      "pushedAt": 1723037652000
+      "pushedAt": 1731425352000
     },
     "branches": {
-      "fetchedAt": 1731259407145,
+      "fetchedAt": 1732491171096,
       "list": [
         {
           "name": "main",
           "path": "/lightningrodlabs/converge",
           "authoredDate": 1715082697000,
           "author": "LeosPrograms"
+        },
+        {
+          "name": "0.4",
+          "path": "/lightningrodlabs/converge/tree/0.4",
+          "authoredDate": 1731425303000,
+          "author": "LeosPrograms"
         }
       ]
     },
     "contributors": {
-      "fetchedAt": 1731259407145,
+      "fetchedAt": 1732491171096,
       "list": [
         {
           "login": "LeosPrograms",
@@ -646,7 +634,7 @@
       ]
     },
     "readme": {
-      "fetchedAt": 1731331218355,
+      "fetchedAt": 1732491172480,
       "title": "Converge"
     }
   },
@@ -654,14 +642,14 @@
     "owner": "glassbeadsoftware",
     "repo": "snapmail",
     "home": {
-      "fetchedAt": 1731259408294,
+      "fetchedAt": 1732491172480,
       "description": "repo for snapmail electron based releases",
       "stars": 19,
       "createdAt": 1589945364000,
       "pushedAt": 1730304783000
     },
     "branches": {
-      "fetchedAt": 1731259408294,
+      "fetchedAt": 1732491172480,
       "list": [
         {
           "name": "master",
@@ -684,7 +672,7 @@
       ]
     },
     "contributors": {
-      "fetchedAt": 1731259408294,
+      "fetchedAt": 1732491172480,
       "list": [
         {
           "login": "ddd-mtl",
@@ -697,7 +685,7 @@
       ]
     },
     "readme": {
-      "fetchedAt": 1731331218649,
+      "fetchedAt": 1732491174053,
       "title": "snapmail"
     }
   },
@@ -705,20 +693,26 @@
     "owner": "lightningrodlabs",
     "repo": "acorn",
     "home": {
-      "fetchedAt": 1731259409603,
+      "fetchedAt": 1732491174053,
       "description": "Built with Holochain, Acorn is an open-source, peer-to-peer project management application. It is designed and built as a scrum-alternative, Agile Development Pattern for distributed software development teams.  Acorn is currently in Alpha testing phase.",
-      "stars": 103,
+      "stars": 105,
       "createdAt": 1616520326000,
-      "pushedAt": 1726269790000
+      "pushedAt": 1731517418000
     },
     "branches": {
-      "fetchedAt": 1731259409603,
+      "fetchedAt": 1732491174053,
       "list": [
         {
           "name": "main",
           "path": "/lightningrodlabs/acorn",
           "authoredDate": 1703710687000,
           "author": "Connoropolous"
+        },
+        {
+          "name": "hc-4-rc",
+          "path": "/lightningrodlabs/acorn/tree/hc-4-rc",
+          "authoredDate": 1731517418000,
+          "author": "zippy"
         },
         {
           "name": "feature/weave-applet-port",
@@ -729,7 +723,7 @@
       ]
     },
     "contributors": {
-      "fetchedAt": 1731259409603,
+      "fetchedAt": 1732491174053,
       "list": [
         {
           "login": "Connoropolous",
@@ -754,7 +748,7 @@
       ]
     },
     "readme": {
-      "fetchedAt": 1731331218907,
+      "fetchedAt": 1732491175416,
       "title": "Acorn"
     }
   },
@@ -762,14 +756,14 @@
     "owner": "lightningrodlabs",
     "repo": "place",
     "home": {
-      "fetchedAt": 1731259410657,
+      "fetchedAt": 1732491175416,
       "description": null,
       "stars": 3,
       "createdAt": 1649087770000,
       "pushedAt": 1698867474000
     },
     "branches": {
-      "fetchedAt": 1731259410657,
+      "fetchedAt": 1732491175416,
       "list": [
         {
           "name": "main",
@@ -780,7 +774,7 @@
       ]
     },
     "contributors": {
-      "fetchedAt": 1731259410657,
+      "fetchedAt": 1732491175416,
       "list": [
         {
           "login": "ddd-mtl",
@@ -793,7 +787,7 @@
       ]
     },
     "readme": {
-      "fetchedAt": 1731331219325,
+      "fetchedAt": 1732491176967,
       "title": "Place"
     }
   },
@@ -801,29 +795,29 @@
     "owner": "lightningrodlabs",
     "repo": "tables",
     "home": {
-      "fetchedAt": 1731259411940,
+      "fetchedAt": 1732491176967,
       "description": "data tables",
       "stars": 4,
       "createdAt": 1709652174000,
-      "pushedAt": 1721905349000
+      "pushedAt": 1731424967000
     },
     "branches": {
-      "fetchedAt": 1731259411940,
+      "fetchedAt": 1732491176967,
       "list": [
         {
           "name": "main",
           "path": "/lightningrodlabs/tables",
-          "authoredDate": 1721905241000,
+          "authoredDate": 1731424960000,
           "author": "LeosPrograms"
         }
       ]
     },
     "contributors": {
-      "fetchedAt": 1731259411940,
+      "fetchedAt": 1732491176967,
       "list": [
         {
           "login": "LeosPrograms",
-          "contributions": 32
+          "contributions": 33
         },
         {
           "login": "zippy",
@@ -832,7 +826,7 @@
       ]
     },
     "readme": {
-      "fetchedAt": 1731331219664,
+      "fetchedAt": 1732491178492,
       "title": "Tables"
     }
   },
@@ -840,7 +834,7 @@
     "owner": "lightningrodlabs",
     "repo": "files",
     "branches": {
-      "fetchedAt": 1731259412983,
+      "fetchedAt": 1732491178492,
       "list": [
         {
           "name": "main",
@@ -849,9 +843,15 @@
           "author": "ddd-mtl"
         },
         {
+          "name": "hdk-3.1",
+          "path": "/lightningrodlabs/files/tree/hdk-3.1",
+          "authoredDate": 1731609808000,
+          "author": "ddd-mtl"
+        },
+        {
           "name": "hdk-4.0-dev.20",
           "path": "/lightningrodlabs/files/tree/hdk-4.0-dev.20",
-          "authoredDate": 1728414632000,
+          "authoredDate": 1731609697000,
           "author": "ddd-mtl"
         },
         {
@@ -863,14 +863,14 @@
       ]
     },
     "home": {
-      "fetchedAt": 1731259412983,
+      "fetchedAt": 1732491178492,
       "description": null,
       "stars": 2,
       "createdAt": 1693576338000,
-      "pushedAt": 1728414632000
+      "pushedAt": 1731609808000
     },
     "contributors": {
-      "fetchedAt": 1731259412983,
+      "fetchedAt": 1732491178492,
       "list": [
         {
           "login": "ddd-mtl",
@@ -879,7 +879,7 @@
       ]
     },
     "readme": {
-      "fetchedAt": 1731259414308,
+      "fetchedAt": 1732491179753,
       "title": "Files hApp"
     }
   }

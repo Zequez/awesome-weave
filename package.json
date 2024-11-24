@@ -3,11 +3,13 @@
   "module": "index.ts",
   "type": "module",
   "scripts": {
+    "update": "bun run generate && bun run push",
     "generate": "bun run generate:base && bun run generate:writereadme && bun run generate:people && bun run generate:people-avatars",
     "generate:base": "bun ./src/scripts/fetch_projects.ts",
     "generate:writereadme": "bun ./src/scripts/fill_readme_projects.ts",
     "generate:people": "bun ./src/scripts/generate_people_svg.ts",
-    "generate:people-avatars": "bun ./src/scripts/fetch_people_images.ts"
+    "generate:people-avatars": "bun ./src/scripts/fetch_people_images.ts",
+    "push": " git add -A && git commit -m \"Update\" && git push origin main"
   },
   "devDependencies": {
     "@types/bun": "latest"
